@@ -1,0 +1,260 @@
+{
+    "round0": {
+        "categories": [
+            "Before It Was Mainstream",
+            "You Get What You Work For",
+            "Time Flies When You're Eating Pies",
+            "Here Comes The Sun",
+            "Too Soon",
+            "Rollin' Rollin' Rollin'"
+        ],
+        "tieBreakerNames": [
+            "The Letter Q",
+            "The Letter V"
+        ],
+        "cat1wrds": [
+            "Polaroid",
+            "Glasses",
+            "Typewriter",
+            "Mustache",
+            "Denim",
+            "Fanny Packs",
+            "Avocado"
+        ],
+        "cat2wrds": [
+            "Plumber",
+            "Director",
+            "Interpreter",
+            "Architect ",
+            "Doctor ",
+            "Teacher",
+            "Personal Trainer "
+        ],
+        "cat3wrds": [
+            "Meatball",
+            "Peppers",
+            "Pineapple",
+            "Pepperoni",
+            "Cheese",
+            "Mushroom",
+            "Onion"
+        ],
+        "cat4wrds": [
+            "Panel",
+            "Electricity",
+            "Rooftop",
+            "Farm",
+            "Megawatt",
+            "Policy",
+            "Jobs"
+        ],
+        "cat5wrds": [
+            "Toilet Paper",
+            "Quarantine",
+            "Banana Bread",
+            "Sweatpants",
+            "Outdoors",
+            "Puzzle",
+            "Pet"
+        ],
+        "cat6wrds": [
+            "Car",
+            "Tricycle",
+            "Suitcase",
+            "Tractor-Trailer",
+            "Bus",
+            "Pick-Up Truck",
+            "Airplane "
+        ],
+        "tieBreaker1": [
+            "Quiet",
+            "Quit",
+            "Quick",
+            "Quiz",
+            "Quench",
+            "Quilt",
+            "Quake"
+        ],
+        "tieBreaker2": [
+            "Vanish",
+            "Vent",
+            "Veteran",
+            "Vet",
+            "Veil",
+            "Village",
+            "Viral"
+        ]
+    },
+    "round1": {
+        "categories": [
+            "Unlimited PTO",
+            "Money Is No Object",
+            "Rock-A-Bye Baby",
+            "Are You Smarter Than A 5th Grader",
+            "What Comes Up, Must Come Down",
+            "Home On The Range"
+        ],
+        "tieBreakerNames": [
+            "The Letter W",
+            "The Letter L"
+        ],
+        "cat1wrds": [
+            "Book",
+            "Swimsuit",
+            "Skis",
+            "Sunscreen",
+            "Hiking Shoes",
+            "Passport/ID",
+            "Water Bottle"
+        ],
+        "cat2wrds": [
+            "Bank",
+            "Yacht",
+            "A Will",
+            "Charity",
+            "Investment",
+            "Work",
+            "Retirement"
+        ],
+        "cat3wrds": [
+            "Bed",
+            "Hammock",
+            "Car",
+            "Desk",
+            "Beach",
+            "Couch",
+            "Hotel"
+        ],
+        "cat4wrds": [
+            "Accomplish",
+            "Edible",
+            "Gigantic",
+            "Summarize",
+            "Ordinary",
+            "Scarce",
+            "Huddle"
+        ],
+        "cat5wrds": [
+            "Humpty Dumpty",
+            "Confetti",
+            "Acorn",
+            "Stocks",
+            "Leaves",
+            "Snow",
+            "Temperature"
+        ],
+        "cat6wrds": [
+            "Sponge",
+            "Blender",
+            "Counter",
+            "Stove",
+            "Salt",
+            "Microwave",
+            "Sink"
+        ],
+        "tieBreaker1": [
+            "Whiskers",
+            "Watermelon",
+            "Wrestle",
+            "Warranty",
+            "Weather",
+            "West",
+            "Wrinkle"
+        ],
+        "tieBreaker2": [
+            "Label",
+            "Ladder",
+            "Leftover",
+            "Lasagna",
+            "Laugh",
+            "Loop",
+            "Local"
+        ]
+    },
+    "round2": {
+        "categories": [
+            "Keep Asheville Weird",
+            "Reduce, Reuse, Recycle",
+            "Free Smells",
+            "Live, Laugh, Lose",
+            "When Life Gives You Lemons",
+            "Stop And Smell The Roses"
+        ],
+        "tieBreakerNames": [
+            "The Letter H",
+            "The Letter J"
+        ],
+        "cat1wrds": [
+            "Breweries",
+            "Hiking",
+            "Bears",
+            "Concerts",
+            "Art",
+            "Tapas",
+            "Cocktails"
+        ],
+        "cat2wrds": [
+            "Food",
+            "Plastic Wrap",
+            "Styrofoam",
+            "Dishes",
+            "Hangers",
+            "Batteries",
+            "Mirrors"
+        ],
+        "cat3wrds": [
+            "Ham",
+            "Mayo",
+            "Lettuce",
+            "Dressing",
+            "Jalapeno",
+            "Olives",
+            "Cucumbers"
+        ],
+        "cat4wrds": [
+            "Wallet",
+            "Keys",
+            "Headphones",
+            "Game",
+            "Time",
+            "Glasses",
+            "Patience"
+        ],
+        "cat5wrds": [
+            "Pikachu",
+            "Highlighter",
+            "Post Its",
+            "Yolk",
+            "Pencil",
+            "Mustard",
+            "Taxi"
+        ],
+        "cat6wrds": [
+            "Laundry Detergent",
+            "Perfume",
+            "Vanilla",
+            "Candle",
+            "Flowers",
+            "Coffee",
+            "Cinnamon"
+        ],
+        "tieBreaker1": [
+            "Humid",
+            "Hairy",
+            "Host",
+            "Hummus",
+            "Hostage",
+            "Horn",
+            "Hurry"
+        ],
+        "tieBreaker2": [
+            "Jukebox",
+            "Journal",
+            "Jealous",
+            "Jingle",
+            "Joust",
+            "Jury",
+            "Junk"
+        ]
+    }
+}

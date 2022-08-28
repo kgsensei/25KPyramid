@@ -1,0 +1,141 @@
+<!-- Code is Copyright (c) of kgsensei & Jeremy 2022 -->
+<!DOCTYPE html>
+<html>
+    <head lang="en-US">
+        <meta charset="utf8">
+        <title>Pyramid Control System</title>
+        <link rel="stylesheet" href="./css/ctrlPnl.css">
+    </head>
+    <body>
+        <div id="categoryEditSecond">
+            <div class="catItem adminControl" onclick="editScore(1, 'plus')">
+                <div class="centerText">
+                    Team 1 +
+                </div>
+            </div>
+            <div class="catItem adminControl" onclick="editScore(1, 'minus')">
+                <div class="centerText">
+                    Team 1 -
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="catItem adminControl" onclick="editScore(2, 'plus')">
+                <div class="centerText">
+                    Team 2 +
+                </div>
+            </div>
+            <div class="catItem adminControl" onclick="editScore(2, 'minus')">
+                <div class="centerText">
+                    Team 2 -
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="catItem informational" id="teamOneScore">
+                <div class="centerText">
+                    Loading...
+                </div>
+            </div>
+            <div class="catItem informational" id="teamTwoScore">
+                <div class="centerText">
+                    Loading...
+                </div>
+            </div>
+        </div>
+        <div id="correct" onclick="sendCorrect()">
+            <div class="centerText">
+                Correct
+            </div>
+        </div>
+        <div id="incorrect" onclick="sendIncorrect()">
+            <div class="centerText">
+                Pass
+            </div>
+        </div>
+        <div id="catContainer">
+            <div class="catItem uiControl" onclick="navCategory(1)" id="cat1">
+                <div class="centerText">
+                    Category 1
+                </div>
+            </div>
+            <div class="catItem uiControl" onclick="navCategory(2)" id="cat2">
+                <div class="centerText">
+                    Category 2
+                </div>
+            </div>
+            <div class="catItem uiControl" onclick="navCategory(3)" id="cat3">
+                <div class="centerText">
+                    Category 3
+                </div>
+            </div>
+            <div class="catItem uiControl" onclick="navCategory(4)" id="cat4">
+                <div class="centerText">
+                    Category 4
+                </div>
+            </div>
+            <div class="catItem uiControl" onclick="navCategory(5)" id="cat5">
+                <div class="centerText">
+                    Category 5
+                </div>
+            </div>
+            <div class="catItem uiControl" onclick="navCategory(6)" id="cat6">
+                <div class="centerText">
+                    Category 6
+                </div>
+            </div>
+            <div class="catItem uiHigherControl" onclick="tieBreaker(1)" id="tb1">
+                <div class="centerText">
+                    Tie Breaker Team 1
+                </div>
+            </div>
+            <div class="catItem uiHigherControl" onclick="tieBreaker(2)" id="tb2">
+                <div class="centerText">
+                    Tie Breaker Team 2
+                </div>
+            </div>
+            <div class="catItem adminControl" onclick="quitCategory()">
+                <div class="centerText">
+                    Quit Category
+                </div>
+            </div>
+            <div class="catItem adminControl" onclick="newRound()">
+                <div class="centerText">
+                    New Round
+                </div>
+            </div>
+            <div class="catItem adminControl" onclick="switchTeams()">
+                <div class="centerText">
+                    Change Teams
+                </div>
+            </div>
+            <div class="catItem adminControl" onclick="forceReload()">
+                <div class="centerText">
+                    Force Reload
+                </div>
+            </div>
+            <div class="catItem adminControl" onclick="showCats()">
+                <div class="centerText">
+                    Show Categories
+                </div>
+            </div>
+            <div class="catItem panelControl" onclick="useGameCats()">
+                <div class="centerText" id="useGameCat">
+                    Use Game Categories
+                </div>
+            </div>
+        </div>
+        <div id="actionSentOverlay">
+            <div class="centerText">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15%" height="15%" fill="rgb(255, 255, 255)" class="bi bi-check" viewBox="0 0 16 16">
+                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                </svg>
+            </div>
+        </div>
+        <script src="./socket.io/socket.io.js"></script>
+        <script src="./js/jquery.js"></script>
+        <script src="./js/ctrlPnl.js"></script>
+    </body>
+</html>

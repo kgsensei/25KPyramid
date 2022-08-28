@@ -1,0 +1,115 @@
+/* Code is Copyright (c) of kgsensei & Jeremy 2022 */
+@font-face {
+    font-family: Monsterrat;
+    src: url("/fonts/monsterrat.ttf");
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(35, 35, 50);
+    font-family: Monsterrat;
+    font-size: 5vh;
+    user-select: none;
+}
+
+#correct {
+    cursor: pointer;
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    height: 50%;
+    width: 60%;
+    background-color: rgb(0, 233, 105);
+    transition: all 250ms;
+}
+
+#incorrect {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    height: 50%;
+    width: 60%;
+    background-color: rgb(212, 61, 61);
+    transition: all 250ms;
+}
+
+#correct:hover, #incorrect:hover {
+    font-size: 5.5vh;
+}
+
+.centerText {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	width: 100%;
+	text-align: center;
+	transform: translate(0%,-50%);
+}
+
+#svgIcon {
+    width: 10%;
+    height: auto;
+}
+
+#actionSentOverlay {
+    display: none;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+#catContainer {
+    position: absolute;
+    left: 80%;
+    width: 20%;
+    top: 0%;
+    height: 100%;
+}
+
+.catItem {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 7%;
+    cursor: pointer;
+    font-size: 1.5vw;
+    transition: all 250ms;
+}
+
+.catItem:hover {
+    font-size: 1.6vw;
+}
+
+.adminControl {
+    color: rgb(255, 0, 0);
+}
+
+.panelControl {
+    color: rgb(0, 174, 255);
+}
+
+.uiControl {
+    color: rgb(0, 255, 64);
+}
+
+.uiHigherControl {
+    color: rgb(255, 187, 0);
+}
+
+#categoryEditSecond {
+    position: absolute;
+    left: 0%;
+    width: 20%;
+    top: 0%;
+    height: 100%;
+}
+
+.informational {
+    color: rgb(255, 255, 255);
+}
